@@ -67,7 +67,7 @@ Before the pull request you should check that your feature branch is up-to-date.
 1. Go to dev (main) branch
 2. Make `git pull` command
 3. Go to your feature branch
-4. Make `git remase main` command
+4. Make `git rebase main` command
 5. Move to Source Control tab in VS Code
 6. Fix conflicts if they occur
 7. Click on Commit button

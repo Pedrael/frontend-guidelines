@@ -1,4 +1,6 @@
-# Best practices in React
+# Best practices
+
+## React
 
 1. Use `uuid` library for generating unique keys in generated lists (`npm i --save-dev uuid`).
 2. Callback in `map` must return a value on **each** iteration.
@@ -31,3 +33,9 @@
 
 7. Use destructurisation of an object `{field1, field2}` if you don't use an object itself.
 8. Search in array in slower than search in object.
+
+## Naming
+
+- Types are stored in types.ts
+- Globals are stored in constants.ts
+- Utility functions are stored in utils.ts
